@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Book from "./Book"
+import Page2 from "./Page2";
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.js'
+import { useState } from "react";
+import Comments from "./Comments.js";
+import DisplayComments from "./DisplayComments.js";
 function App() {
+  const [id,setid]=useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  <>
+  <BrowserRouter>    
+  <Routes>
+<Route path="/" element={<Book setid={setid}/>}></Route>
+<Route path={`/Id=${id}`} element={<Page2 id={id}/>}></Route>
+<Route path="/" element={<Comments />} ></Route>
+<Route path="/display" element={<DisplayComments />} ></Route>
 
+  </Routes>
+ 
+   </BrowserRouter>
+   </>
+  )
+}
+ 
 export default App;

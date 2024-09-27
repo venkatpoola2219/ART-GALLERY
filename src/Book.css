@@ -1,0 +1,99 @@
+
+#card123 {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 480px;
+    margin: auto;
+   
+  }
+  
+  .cit {
+    border-radius: 8px 8px 0 0;
+    margin: auto;
+  }
+
+  .cb {
+    background-color: #f8f9fa;
+  }
+  
+  #but{
+    background-color: #007bff;
+    border-color: #23262b;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .container-fluid {
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px; /* Adjust spacing between icons */
+}
+
+.social-icon img {
+    width: 30px; /* Adjust the size of the icons */
+    height: 30px; /* Adjust the size of the icons */
+    display: block;
+}
+
+
+/* @media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+   */

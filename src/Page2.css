@@ -1,0 +1,31 @@
+#a{
+    color: rgb(125, 175, 7);
+    font-size: 30px;
+    font-weight: bold;
+}
+#c{
+    color: rgb(57, 57, 126);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#b{
+    color: red;
+    font-size: 40px;
+}
+#ram{
+    width: 100%;
+}
+#ram1{
+    width: 100%;
+    color: rgb(61, 20, 173);
+}
+#ram2{
+    width: 100%;
+    color: rgb(18, 63, 129);
+}
+.rrr{
+  
+  color: black;
+  border: none;
+  background-color: rgb(143, 236, 143);
+  border-radius: 10px;
+}
